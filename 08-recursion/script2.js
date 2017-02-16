@@ -19,3 +19,13 @@ function factorial(n) {
 var n = Number(prompt("Enter number: ", ''));
 
 alert(factorial(n));
+
+/* solution:
+
+function factorial(n) {
+  return n ? n * factorial(n - 1) : 1;
+}
+
+alert( factorial(5) ); // 120
+
+*/
